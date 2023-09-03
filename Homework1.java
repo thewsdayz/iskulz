@@ -12,6 +12,7 @@ class Homework1{
         int TotalAmountDue;
         int money;
         int change;
+        double vat;
 
         Scanner inp = new Scanner(System.in);
 
@@ -38,9 +39,11 @@ class Homework1{
         System.out.println("The total price for grapes is " + TotalGrapes);
         System.out.println("The total price for oranges is " + TotalOranges); 
         System.out.println("The total amount due is " + TotalAmountDue);
+        vat = 0.10 * TotalAmountDue;
+        System.out.println("VAT 10%: " + vat);
 
         if(money<=TotalAmountDue) {
-            System.out.println("Unsufficient money !! ");
+            System.out.println("Insufficient money!");
         }
         else if(money>=TotalAmountDue){
             System.out.println("Your change is " + change);
