@@ -32,13 +32,18 @@ class Homework1{
             TotalOranges = oranges * 10;
             TotalAmountDue = TotalApples+TotalGrapes+TotalOranges;
             change = money - TotalAmountDue;
-            
+        
+        
         System.out.println("The total price for apples is " + TotalApples);
         System.out.println("The total price for grapes is " + TotalGrapes);
         System.out.println("The total price for oranges is " + TotalOranges); 
         System.out.println("The total amount due is " + TotalAmountDue);
-        System.out.println("Your change is " + change);
 
-            
+        if(money<=TotalAmountDue) {
+            System.out.println("Unsufficient money !! ");
+        }
+        else if(money>=TotalAmountDue){
+            System.out.println("Your change is " + change);
+        } 
     }
 }
