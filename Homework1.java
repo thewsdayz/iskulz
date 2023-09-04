@@ -34,19 +34,18 @@ class Homework1{
             TotalAmountDue = TotalApples+TotalGrapes+TotalOranges;
             change = money - TotalAmountDue;
         
-        
-        System.out.println("The total price for apples is " + TotalApples);
-        System.out.println("The total price for grapes is " + TotalGrapes);
-        System.out.println("The total price for oranges is " + TotalOranges); 
-        System.out.println("The total amount due is " + TotalAmountDue);
+        System.out.println("The total price for apples: " + TotalApples);
+        System.out.println("The total price for grapes: " + TotalGrapes);
+        System.out.println("The total price for oranges: " + TotalOranges); 
+        System.out.println("The total amount due: " + TotalAmountDue);
         vat = 0.10 * TotalAmountDue;
-        System.out.println("VAT 10%: " + vat);
+        System.out.println("The added VAT: " + vat);
 
         if(money<=TotalAmountDue) {
             System.out.println("Insufficient money!");
         }
         else if(money>=TotalAmountDue){
-            System.out.println("Your change is " + change);
+            System.out.println("Your change: " + change);
         } 
     }
 }
