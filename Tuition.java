@@ -15,7 +15,7 @@ class Tuition{
         units = get.nextInt();
 
             if(units<10) {
-                int cost = 200;
+                int cost = 100;
                 int partialFee = units * cost;
                 double tuitionFee = partialFee + exam + id + OrgFee;
 
@@ -23,8 +23,9 @@ class Tuition{
                 int enroll = get.nextInt();
 
                     if(enroll == 2) {
-                        double TotalTuitionFee = tuitionFee + surcharge;
-                        double FinalTuitionFee = TotalTuitionFee + tuitionFee;
+                        double WithSurchargeFee = tuitionFee * surcharge;
+                        double TotalTuitionFee = tuitionFee + WithSurchargeFee;
+                        double FinalTuitionFee = TotalTuitionFee;
                         System.out.println("Your total tuition fee is " + FinalTuitionFee);
                     } else{
                         System.out.println(tuitionFee);}
@@ -38,8 +39,9 @@ class Tuition{
                         int enroll = get.nextInt();
 
                             if(enroll == 2) {
-                                double TotalTuitionFee = tuitionFee + surcharge;
-                                double FinalTuitionFee = TotalTuitionFee + tuitionFee;
+                                double WithSurchargeFee = tuitionFee * surcharge;
+                                double TotalTuitionFee = tuitionFee + WithSurchargeFee;
+                                double FinalTuitionFee = TotalTuitionFee;
                                 System.out.println("Your total tuition fee is " + FinalTuitionFee);
                             } else{
                                 System.out.println(tuitionFee);
