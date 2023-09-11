@@ -38,7 +38,7 @@ class Rental{
                 double disc = tad * 0.1;
                 double Total = tad-disc;
                 System.out.print(Total);
-            }else if(emp >= 1){
+            }else{
                 double tad = days * 6000;
                 System.out.print(tad);
             }
