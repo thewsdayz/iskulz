@@ -43,5 +43,6 @@ class Rental{
                 System.out.print(tad);
             }
         }
+        scan.close();
     }
 }

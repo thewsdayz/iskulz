@@ -47,7 +47,7 @@ class Tuition{
                                 System.out.println(tuitionFee);
                             }
                     }
-
+                    get.close();
         }
         
 

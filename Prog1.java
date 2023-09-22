@@ -14,7 +14,8 @@ class Prog1{
                     int sagot = una + sec;
 
             System.out.print("Sum is " +  sagot);
-                
+              
+        inp.close();
     }
 
 }

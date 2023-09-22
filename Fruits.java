@@ -47,5 +47,6 @@ class Fruits{
         else if(money>=TotalAmountDue){
             System.out.println("Your change: " + change);
         } 
+        inp.close();
     }
 }

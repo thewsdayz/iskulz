@@ -62,6 +62,6 @@ class Zodiac{
         else if ((day>23 && month == 11) || (day<=20 && month == 12)){
             System.out.println("Your zodiac sign is Sagitarius");
         }
-
+        get.close();
     }
 }
