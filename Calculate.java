@@ -26,7 +26,7 @@ class Calculate{
         }
         else if(choice == 3){
             double pro = first * second;
-            System.out.print("Multiply is " + pro);
+            System.out.print("Product is " + pro);
         }
         else if(choice == 4){
             double quo = first/second;
