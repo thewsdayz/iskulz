@@ -18,13 +18,13 @@ class Prac {
                     System.out.println("Please enter a number between 1 to 100.");
                 }
                 else if (userguess < 63) {
-                System.out.println("Too low! Try again.");
+                    System.out.println("Too low! Try again.");
                 }
                 else if (userguess > 63) {
-                System.out.println("Too high! Try again.");
+                    System.out.println("Too high! Try again.");
                 }
                 else {
-                System.out.println("Congratulations! You guessed the number " + correctans + " in " + attempts + " attempts.");
+                    System.out.println("Congratulations! You guessed the number " + correctans + " in " + attempts + " attempts.");
                 }
             }
         }
