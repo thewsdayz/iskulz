@@ -13,12 +13,12 @@ public class Count {
             num = sc.nextInt();
             
             if (num != 0) {
-            
-            if (num % 2 == 0) {
-                ec++;
-            } else {
-                oc++;
-            }
+                if(num % 2 == 0){
+                    ec++;
+                }
+                else{
+                    oc++;
+                }
             }
         }
         
