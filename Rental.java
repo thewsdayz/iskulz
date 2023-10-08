@@ -14,7 +14,7 @@ class Rental{
             double tad = hrs * 200;
             System.out.print(tad);
         }
-            else if(choice == 2){
+        else if(choice == 2){
             System.out.print("Car Number? ");
             int car = scan.nextInt();
             System.out.print("Days? ");
